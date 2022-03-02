@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="main.css">
         <link rel="shortcut icon" href="idea.ico" type="image/x-icon" >
-
+        <script src="main.js"></script>
 
         <title>
             Personel Website | Alican Kesen
@@ -14,11 +14,21 @@
     </head>
 
     <body id="backgroundBody">
-         
+        <button class="btnStart">About Me</button>
         <div id="textBody">
             <h1 style="font: size 300%;"> Alican Kesen</h1>
             <p style="font-size: 160%;">Computer Engineer/Software Developer</p>
             <p style="font-size: 160%;">
+                <marquee id="marquee" behavior="slide" direction="left" scrollamount="20">
+                    <br>  Alican Kesen, I was born in Gaziantep, Turkey, in 1999.<br> 
+                    In my education life up to this time, I have been known <br>
+                    as a person who is keen on learning and researching.<br>
+                    I am responsible, tech-savvy, open-minded to change.<br>
+                    Until this time, I have worked on software under many <br>
+                    different companies. I want to get more workexperience <br>
+                     and work in the same environment with foreign people.<br>
+                     I want to know about the development of technology all over the world.
+                </marquee>
             <div>
                 <a href="https://www.linkedin.com/in/alican-kesen/" class="fa fa-linkedin" target="_blank" rel="noopener noreferer"></a>
                 <a href="https://medium.com/@942alicankesen" class="fa fa-medium" target="_blank" rel="noopener noreferer"></a>
@@ -26,6 +36,14 @@
                 <a href="https://twitter.com/KesenAlican" class="fa fa-twitter" target="_blank" rel="noopener noreferer"></a>
             </div>
         </div>
+        <!-- <script>
+            let marquee = document.getElementById("marguee");
+            $('.btnStart').click(function(){
+                marquee.overflow = visible;
+            })
+        </script> -->
+
     </body>
+
 
 </html>
