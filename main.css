@@ -1,8 +1,8 @@
 #textBody {
-    text-align: center;
+    text-align:left;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
     color: #fff;
 }
@@ -11,7 +11,7 @@
     padding: 20px;
     font-size: 30px;
     width: 30px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
